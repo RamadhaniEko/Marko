@@ -4638,6 +4638,8 @@ self.C3_JsPropNameTable = [
 	{finish_page: 0},
 	{transisi: 0},
 	{gaet_lv1: 0},
+	{gaed_lv2: 0},
+	{bantu_kanan: 0},
 	{Kecepatan: 0},
 	{Maksimal: 0},
 	{TargetFrameRate: 0},
@@ -4817,7 +4819,7 @@ self.C3_ExpressionFuncs = [
 			const n3 = p._GetNode(3);
 			return () => C3.distanceTo(n0.ExpObject(), n1.ExpObject(), n2.ExpObject(), n3.ExpObject());
 		},
-		() => 72,
+		() => 100,
 		() => "Amount",
 		p => {
 			const v0 = p._GetNode(0).GetVar();
@@ -4840,7 +4842,6 @@ self.C3_ExpressionFuncs = [
 		() => 27.2,
 		() => "Damage",
 		() => 2.3,
-		() => 5,
 		() => "Quiz",
 		() => 7,
 		() => "MiniMap",
